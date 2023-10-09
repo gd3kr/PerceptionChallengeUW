@@ -33,3 +33,9 @@ The code is organized into functions for modularity:
 - `preprocess_image(image)`: Handles the resizing, grayscaling, and blurring of the image.
 - `detect_cones(image)`: Manages the cone detection process including color space conversion and contour finding.
 - `fit_line(centroids)`: Uses the `LinearRegression` class from `sklearn.linear_model` to fit a line through the centroids.
+
+# Usage
+
+1. Run the python file `main.py`.
+2. The script takes an input image named `input_image.png`.
+3. The script writes the output to a file named `answer.png`.
